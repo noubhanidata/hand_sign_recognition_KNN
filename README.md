@@ -1,11 +1,11 @@
 # MNIST hand sign classifier
-## _Stable version_
 
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master) 
 
 Mnist sign language classifier is an experimental project to test the performance of machine learning vs deep learning in the prediction of a given hand sign 
 TensorflowV2.0-powered project
 
+![hand sign](https://github.com/noubhanidata/hand_sign_recognition_KNN/blob/d49ec85934439d05f0d27153529c03ff7fc949c4/images/hand%20sign.jpg) 
 
 
 ## Features
@@ -23,7 +23,6 @@ note : execution/training time relies heavily on your computer performance and w
 mnist hand sign classifier uses a number of open source libraries:
 
 - [skitlearn] - for the PCA and Knn models , metrics 
-- [tensorflow 2.0] - for data augmentation and cnn model creation
 - [pandas + numpy] - for data manipulation
 - [joblib + pickle] - to save the trained models
 - [scipy] - for image shifting
@@ -33,22 +32,6 @@ mnist hand sign classifier uses a number of open source libraries:
 
 And of course Python 3.8
 
-## Installation
-
-MNIST hand sign classifier requires tensorflow 2.0+ to run.
-
-Install the dependencies 
-
-```sh
-# Requires the latest pip
-pip install --upgrade pip
-
-# Current stable release for CPU and GPU
-pip install tensorflow
-
-# Or try the preview build (unstable)
-pip install tf-nightly
-```
 
 ## Documentation 
 ```sh
@@ -119,25 +102,3 @@ MIT
 
 **open source*
 
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
