@@ -5,6 +5,7 @@
 Mnist sign language classifier is an experimental project to test the performance of machine learning vs deep learning in the prediction of a given hand sign 
 TensorflowV2.0-powered project
 
+the CNN version is available at : [Cnn hand sign recognition](https://github.com/noubhanidata/hand_sign_recognition_CNN).
 ![hand sign](https://github.com/noubhanidata/hand_sign_recognition_KNN/blob/d49ec85934439d05f0d27153529c03ff7fc949c4/images/hand%20sign.jpg) 
 
 
